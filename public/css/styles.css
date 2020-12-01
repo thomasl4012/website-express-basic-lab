@@ -36,6 +36,15 @@ h2 {
   padding-top: 50px;
   position: relative;
 }
+.section-about {
+  background-image: url("/img/gordon.jpg");
+  height: 650px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  position: relative;
+}
 .section2,
 .section3 {
   padding-left: 100px;
