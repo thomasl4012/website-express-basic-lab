@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/thomasl4012/website-express-basic-lab.git"
   },
-  "author": "Mathis et Thomas",
+  "author": "Mathias et Thomas",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/thomasl4012/website-express-basic-lab/issues"
@@ -19,5 +19,6 @@
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.1.1"
-  }
+  },
+  "keywords": []
 }
