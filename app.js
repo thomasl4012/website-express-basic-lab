@@ -26,7 +26,7 @@ app.get("/about", (req, res) => {
 
 app.get("/recipe", (req, res) => {
   res.render("recipe", {
-    pageTitle: "homepage",
+    pageTitle: "recipe",
   });
 });
 

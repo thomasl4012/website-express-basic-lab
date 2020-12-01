@@ -61,3 +61,15 @@ ul {
 ol {
   list-style: none;
 }
+nav {
+  background-color: rgb(64, 98, 133);
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+  display: flex;
+  justify-content: space-evenly;
+}
