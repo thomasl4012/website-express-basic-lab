@@ -15,18 +15,22 @@ app.set("view engine", "hbs");
 app.get("/", (req, res) => {
   res.render("home", {
     pageTitle: "homepage",
+    recipeTrue: false,
   });
 });
 
 app.get("/about", (req, res) => {
   res.render("about", {
     pageTitle: "about",
+    recipeTrue: false,
   });
 });
 
 app.get("/recipe", (req, res) => {
   res.render("recipe", {
     pageTitle: "recipe",
+    css: ["mod.recipe"],
+    recipeTrue: true,
   });
 });
 

@@ -10,10 +10,19 @@
     <title>{{ pageTitle }}</title>
 </head>
 <body>
+    {{#if recipeTrue}}
     <nav>
-        <a href="recipe">go to recipe</a>
+         <a href="/">Home</a>
         <a href="about">about</a>
     </nav>
+{{else}}
+    <nav>
+       
+        <a href="recipe">Recipe</a>
+        <a href="about">about</a>
+    </nav>
+{{/if}}
+
     {{{body}}}
 </body>
 </html>
