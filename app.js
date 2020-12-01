@@ -13,15 +13,21 @@ app.set("views", __dirname + "/views");
 app.set("view engine", "hbs");
 
 app.get("/", (req, res) => {
-  res.render("home");
+  res.render("home", {
+    pageTitle: "homepage",
+  });
 });
 
 app.get("/about", (req, res) => {
-  res.render("about");
+  res.render("about", {
+    pageTitle: "about",
+  });
 });
 
 app.get("/recipe", (req, res) => {
-  res.render("recipe");
+  res.render("recipe", {
+    pageTitle: "homepage",
+  });
 });
 
 app.listen(3000, () => {
