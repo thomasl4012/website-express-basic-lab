@@ -117,3 +117,6 @@ h6 {
   margin: auto;
   margin-top: 30px;
 }
+ul {
+  list-style-type: none;
+}
